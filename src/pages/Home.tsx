@@ -59,7 +59,7 @@ const HomePage = () => {
           </div>
           <div className="w-full h-full p-10">
             <div className="md:w-full w-max h-full flex flex-col gap-2">
-              <ul className="flex gap-1 text-black/40 lg:text-xl text-base font-rubik font-medium px-4 pointer-events-none">
+              <ul className="flex gap-1 text-black/40 text-base font-rubik font-medium px-4 pointer-events-none">
                 <li className="flex-1">Name</li>
                 <li className="flex-1">Status</li>
                 <li className="flex-1">Started</li>
