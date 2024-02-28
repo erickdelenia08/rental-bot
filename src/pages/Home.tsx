@@ -9,7 +9,7 @@ const HomePage = () => {
     <>
       <div className="bg-base-color flex flex-row h-screen">
         <SideBar />
-        <div className="flex flex-col flex-1 bg-base-color w-full h-full overflow-auto">
+        <div className="flex flex-col xl:flex-1 bg-base-color w-full h-full overflow-auto">
           <div className="flex flex-col xl:flex-row w-full gap-6 p-10">
             <div className="flex flex-col rounded-xl bg-white items-center hover:bg-black/5">
               <PieChart
@@ -51,13 +51,13 @@ const HomePage = () => {
 
               />
             </div>
-            <div className="flex-1 flex flex-col">
+            <div className="xl:flex-1 flex flex-col">
               <div className="flex-1 bg-white rounded-xl hover:bg-black/5">
                 <BarPlotGroup/>
               </div>
             </div>
           </div>
-          <div className="w-full h-full p-10 overflow-y-hidden">
+          <div className="w-full h-full p-10">
             <div className="md:w-full w-max h-full flex flex-col gap-2">
               <ul className="flex gap-1 text-black/40 text-base font-rubik font-medium px-4 pointer-events-none">
                 <li className="flex-1">Name</li>
