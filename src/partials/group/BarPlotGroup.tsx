@@ -7,7 +7,6 @@ const chartSetting = {
       label: 'rainfall (mm)',
     },
   ],
-  width: 500,
   height: 300,
   sx: {
     [`.${axisClasses.left} .${axisClasses.label}`]: {
@@ -102,7 +101,7 @@ const dataset = [
   },
 ];
 
-const valueFormatter = (value: number) => `${value}mm`;
+const valueFormatter = (value: number) => `${value}`;
 
 export default function BarPlotGroup() {
   return (
@@ -117,3 +116,14 @@ export default function BarPlotGroup() {
     />
   );
 }
+
+
+{/* <BarChart
+  width={500}
+  height={300}
+  series={[
+    { data: pData, label: 'pv', id: 'pvId' },
+    { data: uData, label: 'uv', id: 'uvId' },
+  ]}
+  xAxis={[{ data: xLabels, scaleType: 'band' }]}
+/> */}

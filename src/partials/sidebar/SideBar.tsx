@@ -15,7 +15,7 @@ const SideBar = () => {
                 <NavLink to='/' onClick={() => { setVisitedNavbar('home') }}>
                     <img src={logo} alt="ini logonya" width="40px" className='cursor-pointer select-none' />
                 </NavLink>
-                <span className={`${extendNavbar?'scale-0':'scale-100'} font-bold mt-3 text-xl text-black text-opacity-70 duration-200 transition ease-in-out origin-center`}>Rental Bot</span>
+                <span className={`${extendNavbar ? 'scale-0' : 'scale-100'} font-bold mt-3 text-xl text-black text-opacity-70 duration-200 transition ease-in-out origin-center`}>Rental Bot</span>
                 <IoIosArrowDroprightCircle style={{ color: "black", opacity: "0.6", fontSize: "1.8em" }} className={`absolute -right-4 top-28 ${extendNavbar && 'rotate-180'}`} onClick={() => { setextedNavbar(!extendNavbar) }} />
                 <hr className='w-full mt-5 mb-5' />
                 {sidebar_item.map((item, index) => {

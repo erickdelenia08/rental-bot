@@ -52,12 +52,12 @@ const HomePage = () => {
               />
             </div>
             <div className="flex-1 flex flex-col">
-              <div className="w-max bg-white rounded-xl">
-                <BarPlotGroup />
+              <div className="flex-1 bg-white rounded-xl hover:bg-black/5">
+                <BarPlotGroup/>
               </div>
             </div>
           </div>
-          <div className="w-full h-full p-10">
+          <div className="w-full h-full p-10 overflow-y-auto">
             <div className="md:w-full w-max h-full flex flex-col gap-2">
               <ul className="flex gap-1 text-black/40 text-base font-rubik font-medium px-4 pointer-events-none">
                 <li className="flex-1">Name</li>
