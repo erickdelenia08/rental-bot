@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { HiMiniUserGroup } from "react-icons/hi2";
-import { TriggerButton, Modal, ModalContent, StyledBackdrop } from './modal_setup'
+import {  Modal, ModalContent, StyledBackdrop } from './modal_setup'
 
 const GroupCard = () => {
     const [openModal, setOpenModal] = useState(false)
-    const handleOpen = () => setOpenModal(true);
+    // const handleOpen = () => setOpenModal(true);
     const handleClose = () => setOpenModal(false);
     return (
         <>
